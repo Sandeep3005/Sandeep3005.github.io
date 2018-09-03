@@ -1,6 +1,10 @@
 
 .wrapper {
-  height: 100px;
+  height: 100%;
+  width: 100%;
+  top:0;
+  bottom: 0;
+  position: absolute;
 }
 
 .reach_icon {
@@ -24,8 +28,8 @@
 }
 
 .content-info-display {
-  position: relative;
-  top: 300%;
+  position: absolute;
+  top: 20%;
   left: 20%;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
