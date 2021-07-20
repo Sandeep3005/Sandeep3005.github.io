@@ -1,0 +1,90 @@
+nav {
+  height: 6vh;
+  background: #910d0dcc;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin-left:auto;
+}
+
+.nav-links li a {
+  color: #1c2520;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links {
+  position: fixed;
+  background: #910d0dcc;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  clip-path: circle(0% at 90% -40%);
+  -webkit-clip-path:  circle(0% at 90% -40%);
+  transition: all 1s ease-out;
+}
+
+.nav-links.open {
+  clip-path: circle(150% at 90% -40%);
+  -webkit-clip-path:  circle(150% at 90% -40%);
+}
+
+nav {
+  position:relative;
+}
+
+nav.down-content {
+  margin-bottom: 25vh;
+  -webkit-transition-property: margin-bottom;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+}
+
+nav.up-content {
+  margin-bottom: 0vh;
+  -webkit-transition-property: margin-bottom;
+  -webkit-transition-duration: 2s;
+  -webkit-transition-timing-function: ease;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top:50%;
+  transform: translate(-5%, -50%);
+  z-index: 2;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background: white;
+  margin: 5px;
+}
+
+.get-touch-icon {
+  color: white;
+  align-items: center;
+  display: flex;
+  height: 12vh;
+}
+
+.img-social-link {
+  height: 8vh;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  margin-left: 0.5rem;
+}
+

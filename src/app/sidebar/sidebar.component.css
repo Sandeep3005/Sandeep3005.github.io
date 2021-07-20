@@ -1,0 +1,40 @@
+.center-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  margin: 5% auto;
+}
+
+.name {
+  font-size: 1.5rem; 
+  font-weight: 900;
+}
+
+.sidebar-section {
+  color:#1c2520
+}
+
+.links {
+  margin-top: 30%;
+  font-size: 1.5rem; 
+  display: grid;
+}
+
+.get-in-touch {
+  margin-top: 30%;
+  font-size: 1rem; 
+}
+
+.img-social-link {
+  height: 2rem;
+  margin-right: 1rem;
+  margin-top: 1%;
+}
+
+.link-single {
+  text-decoration: none;
+  color: #2a2b2c;
+}

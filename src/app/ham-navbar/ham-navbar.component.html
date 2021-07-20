@@ -1,0 +1,38 @@
+<nav [ngClass]="openMenuStatus ? 'down-content' : 'up-content'">
+  <section class="get-in-touch">
+    <!-- <a href="">
+      <img class="img-social-link" src="assets/github.png" alt="Github" />
+    </a>
+    <a href="">
+      <img class="img-social-link" src="assets/gmail.png" alt="Gmail" />
+    </a>
+    <a href="">
+      <img class="img-social-link" src="assets/linkedin.png" alt="Linked" />
+    </a> -->
+  </section>
+  <div class="hamburger" (click)="openMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <ul class="nav-links" [ngClass]="openMenuStatus ? 'open' : ''">
+    <li>
+      <a class="link-single" (click)="openMenu()" routerLink="/">HOME</a>
+    </li>
+    <li>
+      <a class="link-single" (click)="openMenu()" routerLink="/portfolio"
+        >PORTFOLIO</a
+      >
+    </li>
+    <li>
+      <a class="link-single" (click)="openMenu()" routerLink="/resume"
+        >RESUME</a
+      >
+    </li>
+    <li>
+      <a class="link-single" (click)="openMenu()" routerLink="/contact"
+        >CONTACT ME</a
+      >
+    </li>
+  </ul>
+</nav>

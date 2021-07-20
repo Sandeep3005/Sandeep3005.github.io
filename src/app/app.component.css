@@ -1,0 +1,9 @@
+@media (max-width: 768px) { 
+  .hide-section {
+    display: none;
+  }
+}
+
+.menu-open {
+  margin-top: 15vh;
+}

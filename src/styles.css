@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+.sidebar {
+  background-color: #910d0dcc;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  background-image: url("assets/pune_backgrd.jpg");
+  background-position: center;
+  font-family: 'Hammersmith One', sans-serif;
+}
+html, body { height: 100%; }
