@@ -1,6 +1,6 @@
 nav {
   height: 6vh;
-  background: #910d0dcc;
+  background-color: #5e3f6d;
 }
 
 .nav-links {
@@ -9,17 +9,18 @@ nav {
   justify-content: space-around;
   align-items: center;
   margin-left:auto;
+  opacity: 90%;
 }
 
 .nav-links li a {
-  color: #1c2520;
+  color: whitesmoke;
   text-decoration: none;
   font-size: 1rem;
 }
 
 .nav-links {
   position: fixed;
-  background: #910d0dcc;
+  background-color: #5e3f6d;
   height: 100vh;
   flex-direction: column;
   width: 100%;
@@ -32,10 +33,6 @@ nav {
 .nav-links.open {
   clip-path: circle(150% at 90% -40%);
   -webkit-clip-path:  circle(150% at 90% -40%);
-}
-
-nav {
-  position:relative;
 }
 
 nav.down-content {
@@ -51,7 +48,15 @@ nav.up-content {
   -webkit-transition-duration: 2s;
   -webkit-transition-timing-function: ease;
 }
-
+/* .fix-top {
+  -webkit-transition-property: position, top, right, left, z-index;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  transition-delay: 2s;
+} */
 .hamburger {
   position: absolute;
   cursor: pointer;
