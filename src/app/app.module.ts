@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { HttpClientModule } from "@angular/common/http";
+import { MzdTimelineModule } from "ngx-mzd-timeline";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -12,7 +13,6 @@ import { HomeComponent } from "./home/home.component";
 import { PortfolioComponent } from "./portfolio/portfolio.component";
 import { ResumeComponent } from "./resume/resume.component";
 import { ContactMeComponent } from "./contact-me/contact-me.component";
-import { PdfViewerModule } from "ng2-pdf-viewer";
 
 @NgModule({
   declarations: [
@@ -30,7 +30,6 @@ import { PdfViewerModule } from "ng2-pdf-viewer";
     AppRoutingModule,
     AvatarModule,
     BrowserAnimationsModule,
-    PdfViewerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

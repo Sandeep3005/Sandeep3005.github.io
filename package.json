@@ -20,7 +20,6 @@
     "@angular/platform-browser": "~11.2.4",
     "@angular/platform-browser-dynamic": "~11.2.4",
     "@angular/router": "~11.2.4",
-    "ng2-pdf-viewer": "^7.0.1",
     "ngx-avatar": "^4.1.0",
     "ngx-bootstrap": "^6.2.0",
     "rxjs": "~6.6.0",
