@@ -13,10 +13,6 @@
   font-weight: 900;
 }
 
-.sidebar-section {
-  color:#1c2520
-}
-
 .links {
   margin-top: 30%;
   font-size: 1.5rem; 
@@ -24,7 +20,7 @@
 }
 
 .get-in-touch {
-  margin-top: 30%;
+  margin-top: 45%;
   font-size: 1rem; 
 }
 
@@ -36,5 +32,9 @@
 
 .link-single {
   text-decoration: none;
-  color: #2a2b2c;
+  color: whitesmoke;
+}
+
+.social-icons-section {
+  margin-bottom: 25%;
 }

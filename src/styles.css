@@ -3,12 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 .sidebar {
-  background-color: #910d0dcc;
+  background-color: #5e3f6d;
   height: 100vh;
 }
 body {
   margin: 0;
-  background-image: url("assets/pune_backgrd.jpg");
+  background-color: #2f363e;
+  color: whitesmoke;
   background-position: center;
   font-family: 'Hammersmith One', sans-serif;
 }
