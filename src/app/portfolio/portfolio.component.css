@@ -78,3 +78,7 @@ body {
 .text-gray {
     color: #999;
 }
+
+.portfolio-img {
+    width: 250px
+}
