@@ -1,0 +1,27 @@
+.bg_custom {
+  background-color:#1e3d59;
+}
+
+.link_color {
+  color: #ff6e40 !important;
+  transition: font-size 100ms, height 4s;
+}
+
+.link_color:hover {
+  font-size: 1.5em;
+  color: #ff6e40 !important;;
+}
+
+.link_color:active {
+  font-size: 2em;
+  color: #ff6e40 !important;;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(216,24,210, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* 255  110 64 1
+
+
+
+*/

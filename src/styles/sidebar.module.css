@@ -1,0 +1,29 @@
+.sidebar_width_350 {
+  width: 22em;
+}
+
+.sidebar_visibility_true {
+  visibility: visible;
+}
+
+.sidebar_background {
+  background: #1e3d59;
+}
+
+.link_color {
+  color: #ff6e40;
+  transition: font-size 400ms, height 4s;
+}
+
+.link_color:hover {
+  font-size: 1em;
+  color: #ffc13b;
+}
+
+.link_color:active {
+  color: #40ffe6;
+}
+.spread_content {
+  height: 50vh;
+  justify-content: space-evenly;
+}
