@@ -9,11 +9,16 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.9.1",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
     "gh-pages": "^3.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "typescript": "^4.4.3",
     "uniqid": "^5.4.0",
     "web-vitals": "^2.1.0"
   },
@@ -39,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@types/uniqid": "^5.3.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "^8.3.0",
