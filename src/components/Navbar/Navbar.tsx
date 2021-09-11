@@ -7,18 +7,21 @@ import { ThemeContext } from "../../contexts/theme";
 import { projects, skills, contact } from "../../portfolio";
 import "./Navbar.css";
 
+interface IThemeContext {
+  themeName: string;
+  toggleTheme: () => void;
+}
+
 const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
+  const [{ themeName, toggleTheme }]: IThemeContext[] =
+    useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
 
   const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
     <nav className="center nav">
-      <ul
-        style={{ display: showNavList ? "flex" : null }}
-        className="nav__list"
-      >
+      <ul style={{ display: showNavList ? "flex" : "" }} className="nav__list">
         {projects.length ? (
           <li className="nav__list-item">
             <a
