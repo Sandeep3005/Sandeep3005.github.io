@@ -6,8 +6,7 @@ const Footer = () => (
       href="https://github.com/Sandeep3005/Sandeep3005.github.io"
       className="link footer__link"
     >
-      Coded with <span>&hearts;</span>
-      by Sandeep Chikhale
+      Coded with &#10084; by Sandeep Chikhale
     </a>
   </footer>
 );
