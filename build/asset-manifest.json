@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Sandeep3005/Sandeep3005.github.io/static/css/main.f7b5cd44.chunk.css",
+    "main.js": "/Sandeep3005/Sandeep3005.github.io/static/js/main.a780db64.chunk.js",
+    "main.js.map": "/Sandeep3005/Sandeep3005.github.io/static/js/main.a780db64.chunk.js.map",
+    "runtime-main.js": "/Sandeep3005/Sandeep3005.github.io/static/js/runtime-main.540d28c8.js",
+    "runtime-main.js.map": "/Sandeep3005/Sandeep3005.github.io/static/js/runtime-main.540d28c8.js.map",
+    "static/js/2.564f157f.chunk.js": "/Sandeep3005/Sandeep3005.github.io/static/js/2.564f157f.chunk.js",
+    "static/js/2.564f157f.chunk.js.map": "/Sandeep3005/Sandeep3005.github.io/static/js/2.564f157f.chunk.js.map",
+    "index.html": "/Sandeep3005/Sandeep3005.github.io/index.html",
+    "static/css/main.f7b5cd44.chunk.css.map": "/Sandeep3005/Sandeep3005.github.io/static/css/main.f7b5cd44.chunk.css.map",
+    "static/js/2.564f157f.chunk.js.LICENSE.txt": "/Sandeep3005/Sandeep3005.github.io/static/js/2.564f157f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.540d28c8.js",
+    "static/js/2.564f157f.chunk.js",
+    "static/css/main.f7b5cd44.chunk.css",
+    "static/js/main.a780db64.chunk.js"
+  ]
+}
